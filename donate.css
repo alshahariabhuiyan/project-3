@@ -1,0 +1,224 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+a:hover{
+    box-shadow: 0 0 5px gray;
+    border: 2px solid wheat;    
+}
+header{
+  background-image:url("./pic-3.jpg");
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
+  height: 400px;
+  width: 100%;
+  
+  background-size: cover;
+  text-align: center;
+}
+#header{
+    padding-top: 7%;
+    
+}
+
+#header h1{
+    color: rgb(240, 240, 235);  
+    font-weight: 700;  
+}
+#header p{
+    padding: 0 20%;
+    color: rgb(255, 255, 255);
+    font-size: 12px;
+    font-weight: 600;
+}
+.link{
+    
+    text-decoration: none;
+    color: white;
+    background-color: rgb(195, 133, 53);
+    padding: 10px 30px;
+    border-radius: 8px;
+    font-size: 12px;
+    font-weight: 700;
+    
+}
+ header h1,p{
+    text-align: center;
+    padding: 0 22%;
+}
+.sec-1 h1{
+    text-align: center;
+}
+.sec-1-inner-1{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.taka{
+    
+    border-radius: 10px;
+    background-color: antiquewhite;
+    box-shadow: 0 0 5px gray;
+    height:100%;
+    width:12%;
+    margin:0 -250px;
+    box-shadow: 0 0 10px solid gray;
+}
+.taka:hover{
+    border: 2px solid red;
+    color: red;
+}
+.sec-1-inner-2{
+    margin-top: 30px;
+    text-align: center;
+    
+}
+input{
+    border: none;
+    border-bottom: 2px solid gray;
+    
+}
+input:active{
+    border: none;
+}
+button{
+    background-color: rgb(195, 133, 53);
+    color: white;
+    padding: 10px 30px;
+    border-radius: 8px;
+    font-size: 12px;
+    font-weight: 700;
+    border: none;
+    cursor: pointer;
+
+}
+button:hover{
+    border: 1px solid gray;
+    box-shadow: 0 0 5px gray;
+}
+.sec-2 h1, .sec-3 h1, .sec-4 h1, .sec-5 h1, footer h1 {
+    text-transform: capitalize;
+    text-align: center;
+}
+.sec-2-main{
+      display: flex;
+      margin: 0 10%;
+}
+.sec-2-main p{
+   text-align: justify;
+   padding: 15px;
+   font-size: 15px;
+   color: rgb(71, 55, 55);
+}
+.sec-2-inner{
+    border-radius: 5px;
+    width: 33.33%;
+    margin: 5% 2%;
+    box-shadow: 0 0 20px gray;
+}
+.sec-2-inner-1{
+    background-color: rgb(199, 235, 237);
+}
+.sec-2-inner-2{
+    background-color: rgba(225, 187, 187, 0.392)
+}
+.sec-2-inner-3{
+    background-color: rgba(239, 217, 158, 0.392)
+}
+.sec-3{
+    margin-top: 80px;
+}
+
+
+.sec-3-main{
+    display: flex;
+}
+.sec-3-inner{
+    width: 50%;
+}
+.sec-3 img{
+    height: 300px;
+    width: 450px;
+}
+.sec-3 p{
+    font-size: 12px;
+    text-align: justify;
+}
+.sec-3 a{
+    position: absolute;
+    margin:3% 18% ;
+}
+.sec-4, .sec-5{
+    margin-top: 80px;
+
+}
+.sec-4-main{
+    display: flex;
+    margin: 0 11%;
+}
+.sec-4-inner{
+    width: 50%;
+}
+.sec-4 img{
+    height: 300px;
+    width: 450px;
+    
+}
+.sec-4-inner-2{
+    margin-right: 6%;
+}
+.sec-4 p{
+    font-size: 12px;
+    text-align: justify;
+    padding: 0 10%;
+}
+.sec-4 a{
+    position: absolute;
+    margin:3% 12% ;
+}
+.sec-5
+.sec-5-main{
+   text-align: center;
+   border: 2px solid wheat;
+   box-shadow: 0 0 20px gray;
+   margin: 5% 20%;
+   padding: 7% 0;
+   background-color:rgb(255, 234, 183); ;
+   
+}
+input, label{
+    padding: 5px;
+    border-radius: 5px;
+}
+label{
+    position: absolute;
+    background-color:rgb(195, 133, 53);
+    cursor: pointer;
+}
+label:hover{
+    
+    color: white;
+
+}
+footer{
+    width: 100%;
+    height: 200px;
+    background-image: url(./black1.jpeg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+   
+    color: white;
+    
+}
+footer h1{
+    font-family: 'Pacifico', cursive;
+    padding-top:5%;
+   color:red ;
+}
+footer p{
+    font-size: 12px;
+    
+    font-family: 'Pacifico', cursive;
+}
+
