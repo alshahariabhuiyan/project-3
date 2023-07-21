@@ -104,6 +104,12 @@ button:hover{
       display: flex;
       margin: 0 10%;
 }
+.sec-2-main img{
+    position: inherit;
+    margin-top: 30px;
+    margin-left: 20px;
+    
+}
 .sec-2-main p{
    text-align: justify;
    padding: 15px;
@@ -135,6 +141,7 @@ button:hover{
 }
 .sec-3-inner{
     width: 50%;
+    text-align: center;
 }
 .sec-3 img{
     height: 300px;
@@ -152,31 +159,33 @@ button:hover{
     margin-top: 80px;
 
 }
+.sec-4{
+    margin-top: 80px;
+}
+
+
 .sec-4-main{
     display: flex;
-    margin: 0 11%;
 }
 .sec-4-inner{
     width: 50%;
+    text-align: center;
 }
 .sec-4 img{
     height: 300px;
     width: 450px;
-    
-}
-.sec-4-inner-2{
-    margin-right: 6%;
+    margin: 0 auto;
 }
 .sec-4 p{
     font-size: 12px;
     text-align: justify;
-    padding: 0 10%;
 }
 .sec-4 a{
     position: absolute;
-    margin:3% 12% ;
+    margin:3% 18% ;
 }
-.sec-5
+
+
 .sec-5-main{
    text-align: center;
    border: 2px solid wheat;
@@ -185,13 +194,14 @@ button:hover{
    padding: 7% 0;
    background-color:rgb(255, 234, 183); ;
    
+   
 }
 input, label{
     padding: 5px;
     border-radius: 5px;
 }
 label{
-    position: absolute;
+    /* position: absolute; */
     background-color:rgb(195, 133, 53);
     cursor: pointer;
 }
@@ -221,4 +231,70 @@ footer p{
     
     font-family: 'Pacifico', cursive;
 }
-
+@media only screen and (max-width:576px) {
+    header{
+        width: 100%;
+    }
+    .sec-1-inner-1{
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+    .taka{
+        margin: 0;
+        width: fit-content;
+        height: fit-content;
+    }
+    .sec-2-main{
+        flex-direction: column;
+        justify-content: center;
+        width: fit-content;
+        
+    }
+    .sec-2-inner{
+        width: 100%;
+        margin: 0;
+        
+    }
+    .sec-3-main{
+        flex-direction: column;
+    }
+    .sec-3-inner{
+        width: 100%;
+    }
+    .sec-3 a{
+        position: inherit;
+    }
+    .sec-4-main{
+        flex-direction: column-reverse;
+    }
+    
+    .sec-3 img{
+        margin-top: 20px;
+        width: 100%;
+    }
+    .sec-4-inner{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .sec-4 img{
+        width: 100%;
+        margin-top: 20px;
+    }
+    .sec-5-main{
+        width: fit-content;
+        height: fit-content;
+        margin: 0 auto;
+    }
+}
+@media only screen and (min-width:577px) and (max-width:1280px) {
+    .sec-1-inner-1{
+        justify-content: space-around;
+    }
+    .sec-3-inner img{
+        width: 100%;
+    }
+    .sec-4 img{
+        width: 100%;
+    }
+}
